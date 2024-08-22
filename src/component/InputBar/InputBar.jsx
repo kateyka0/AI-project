@@ -27,7 +27,7 @@ return (
         onKeyPress={handleKeyPress} // Добавляем обработчик нажатия клавиш
         placeholder="Напишіть ваше запитання..."
       />
-      <button type="submit">Отправить</button>
+      <button type="submit">Відправити</button>
     </form>
   );
 }
