@@ -1,0 +1,29 @@
+.chatWindow {
+     display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 100%;
+    word-wrap: break-word;
+    scrollbar-width: none;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 60%;
+}
+
+.user {
+    background-color: #4a7081;
+    color: white;
+    align-self: flex-start;
+}
+
+.ai {
+  background-color: #e5e5e5;
+    color: #333;
+    align-self: flex-end;
+}
