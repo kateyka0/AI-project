@@ -25,7 +25,7 @@ return (
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
         onKeyPress={handleKeyPress} // Добавляем обработчик нажатия клавиш
-        placeholder="Напишите сообщение..."
+        placeholder="Напишіть ваше запитання..."
       />
       <button type="submit">Отправить</button>
     </form>

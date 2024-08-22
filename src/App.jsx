@@ -48,7 +48,7 @@ function App() {
     setTimeout(() => {
       setMessages((prevMessages) => [
         ...prevMessages,
-        { text: "Это ответ от AI", sender: "ai" },
+        { text: "Відповідь від AI", sender: "ai" },
       ]);
     }, 1000);
   };
